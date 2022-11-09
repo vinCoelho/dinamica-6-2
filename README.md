@@ -61,7 +61,7 @@ _trybe-hotel-tamara-flavio_.
 - Caso esses campos fiquem largos demais, use as classes do Bootstrap empregadas como seletores para diminuir a largura e centralizar os campos.
 - Estilize o botão com o uso do Bootstrap.
 
-### 4. Prazo e demais instruções
+## Prazo e demais instruções
 
 Teremos 40 minutos direcionados para a dinâmica.<br>
 Uma das pessoas da dupla deverá abrir um Pull Request com o nome da dupla.<br>
