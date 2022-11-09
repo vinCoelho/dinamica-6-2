@@ -17,8 +17,11 @@ O resultado de hoje será parecido com este:
 
 ![](hotel.png)
 
-Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório.
-Não será preciso criar branch e nem abrir Pull Request.
+Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório.<br>
+Não será preciso criar branch e nem abrir Pull Request.<br><br>
+
+Caso seja de preferência da dupla, é permitido realizar _fork_ (cópia) do repositório do GitHub e depois realizar o clone.<br>
+
 
 ## Requisitos
 
