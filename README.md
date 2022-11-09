@@ -1,75 +1,63 @@
-# Lógica de programação com Forms e LocalStorage
+# Dinâmica em duplas - Formulários e Bootstrap
 
-Boas vindas ao repositório de lógica de programação, desenvolvemos essa aplicação no intuito de auxiliar na fixação do conteúdo do bloco 6
-
-![enter image description here](https://i.ibb.co/WxjmvMn/Captura-de-tela-de-2021-12-05-14-23-33.png)
+Boas-vindas à nossa primeira dinâmica da Seção 6. Com essa atividade, vocês vão trabalhar em equipes, em busca de uma solução da situação proposta.
+A sugestão é que uma pessoa compartilhe a tela, enquanto as duas (ou três) pessoas trocam ideias e desenvolvam juntas.
 
 ## Como vai funcionar
 
-Essa mentoria será divida em duas etapas:
+Essa dinâmica será divida em duas etapas:
 
-Dia 6.2 - Criar um formulário e utilizar o local storage para salvar e recuperar os dados obtidos através dos inputs.
-Dia 6.4 - Dar um upgrade na aplicação utilizando flexbox.
+- Dia 6.2 - Criar um formulário e aplicar estilização CSS, com o uso do Bootstrap.
+- Dia 6.4 - Trazendo responsividade para a aplicação, com o uso combinado do flexbox.
 
-## O que já vem pronto
+## Cenário
 
-- Todo CSS já está pronto, vamos dar um upgrade nele na próxima mentoria;
-- Todos os elementos necessários já estão sendo capturados dentro do script.js se atente a classe que cada elemento deve conter.
-- Já existem funções prontas como:
-  - Obter qual o quarto escolhido;
-  - Obter o número de pessoas;
-  - Formatar a data.
+Uma rede hoteleira entrou em contato, solicitando que vocês desenvolvam o _front-end_ para um formulário de solicitação de reservas. 
+O resultado de hoje será parecido com este:
+
+![](hotel.png)
 
 ## Requisitos
 
-### 1. Faça uma barra superior para o titulo e o logo
+### 1. Faça uma barra superior para o título e a logomarca.
 
-- Utilize `header` para fazer a barra e deve conter a classe `header-trybe`
-- Adicione um titulo
-- Adicione uma imagem
+- Utilize `header` para fazer a barra e deve conter a classe `header-trybe`.
+- Adicione um titulo: *Trybe Hotel*.
+- Adicione uma imagem:
   Para adicionar a imagem você pode utilizar esta url:
   > https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s
 
 ### 2. Inicie um formulário que deve conter:
 
 - Uma `section` com a classe `hotel-form` para a reserva do hotel
-  - Adicione um `input` do tipo `data` para o Checkin com a classe `inputCheckin`
-  - Adicione um `input` do tipo `data` para o Chekout com a classe `inputCheckout`
-- Uma `section` com a classe `hotel-form` selecionarmos os tipos de quartos com
-  - Adicione um `input` do tipo `radio` para o quarto Comum com a classe `bedroom`
-  - Adicione um `input` do tipo `radio` para o quarto Club com a classe `bedroom`
-  - Adicione um `input` do tipo `radio` para o quarto Luxo com a classe `bedroom`
-  - Todos devem conter o mesmo `name`
+  - Adicione um `input` do tipo `date` para o *Check-in* com a classe `inputCheckin`.
+  - Adicione um `input` do tipo `date` para o *Check-out* com a classe `inputCheckout`.
+  
+- Uma `section` com a classe `hotel-form` selecionarmos os tipos de quartos
+  - Adicione um `p` com o texto: *Acomodação*.
+  - Adicione um `input` do tipo `radio` para o quarto *Comum* com a classe `bedroom`.
+  - Adicione um `input` do tipo `radio` para o quarto *Club* com a classe `bedroom`.
+  - Adicione um `input` do tipo `radio` para o quarto *Luxo* com a classe `bedroom`.
+  - Todos devem conter o mesmo `name`.
+  
 - Uma `section` com a classe `hotel-form` para a quantidade de pessoas
-  - Adicione um `select` com quatro `options` de 1 ao 4 com a classe `nPessoas`
-- Uma `section` com a classe `hotel-form` para escrevermos alguma observação
-  - Adicione uma `textArea` com `placeholder` para indicar que é o campo de observações com a classe `obs`
-- Adicione um `botão` com o id `submit-btn`
+  - Adicione um `select` com quatro `options` de 1 ao 4 com a classe `nPessoas`.
+  
+- Uma `section` com a classe `hotel-form` para observações
+  - Adicione uma `textarea` com `placeholder` para indicar que é o campo de observações com a classe `obs`.
+  
+- Adicione um `button` para enviar o formulário.
 
-### 3. Lista de reservas
+### 3. Usando o Bootstrap
 
-- Faça uma `section` com a classe `list-section` para a lista de reservas
-  - Adicione um titulo
-  - Adicione uma lista ordenada
-  - Adicione um botão com o id `clear-btn`
+- Incorpore o [Bootstrap](https://getbootstrap.com/) no documento HTML, *acima* da tag `link`com o arquivo `style.css`.
+- Pesquise por `forms` no Bootstrap e encontre a classe que melhor se adeque, de acordo com a dupla, para estilizar:
+  - Campos de datas check-in e check-out;
+  - Campo para número de pessoas;
+  - Campo para observações.
+- Caso esses campos fiquem largos demais, use as classes do Bootstrap empregadas como seletores para diminuir a largura e centralizar os campos.
+- Estilize o botão com o uso do Bootstrap.
 
-### 4. Adicionando os valores dos inputs na lista
+### 4. Prazo
 
-- Desenvolva uma função para criar uma `li` de forma dinâmica
-- Sua `li` deve conter os valores dos `inputs` e ficar da seguinte forma:
-  `Reserva para o dia xx/xx/xxxx até o dia xx/xx/xxxx`
-  `Quarto x - Para x Pessoas - Obs: xxxx`
-  `Obs: xxxxxx`
-- Esta `li` deve ser filha da `ol`
-- Adicione um evento de click ao botão que deve receber essa função
-
-### 5.Limpando a lista
-
-- Desenvolva uma função que deve limpar a lista
-- Adicione um evento de click ao botão limpar lista que deve receber essa função
-
-### 6. Salvando a lista com LocalStorage
-
-- Desenvolva uma função que deve salvar a lista quando alteramos algo nela
-- Desenvolva uma função que deve restaurar a lista quando recarregarmos a pagina
-- A função que restaura a lista deve ser chamada dentro do `window.onload`
+Teremos 40 minutos direcionados para a dinâmica.
