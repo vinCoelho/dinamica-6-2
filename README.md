@@ -8,7 +8,7 @@ A sugestão é que uma pessoa compartilhe a tela, enquanto as duas (ou três) pe
 Essa dinâmica será divida em duas etapas:
 
 - Dia 6.2 - Criar um formulário e aplicar estilização CSS, com o uso do Bootstrap.
-- Dia 6.4 - Trazendo responsividade para a aplicação, com o uso combinado do flexbox.
+- Dia 6.5 - Trazendo responsividade para a aplicação, com o uso combinado do flexbox.
 
 ## Cenário
 
@@ -61,8 +61,10 @@ _trybe-hotel-tamara-flavio_.
 - Caso esses campos fiquem largos demais, use as classes do Bootstrap empregadas como seletores para diminuir a largura e centralizar os campos.
 - Estilize o botão com o uso do Bootstrap.
 
-### 4. Prazo
+### 4. Prazo e demais instruções
 
-Teremos 40 minutos direcionados para a dinâmica.
-Uma das pessoas da dupla deverá abrir um Pull Request com o nome da dupla. Fiquem à vontade para solicitar code-reviews aos colegas.
-Caso não seja possível terminar, podem continuar fazendo o trabalho posteriormente.
+Teremos 40 minutos direcionados para a dinâmica.<br>
+Uma das pessoas da dupla deverá abrir um Pull Request com o nome da dupla.<br>
+Fiquem à vontade para solicitar code-reviews aos colegas.<br>
+Caso não seja possível terminar, podem continuar fazendo o trabalho posteriormente.<br>
+É importante lembrar que a mesma branch aberta hoje continuará a ser usada na aula 6.5.
