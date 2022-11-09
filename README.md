@@ -17,6 +17,9 @@ O resultado de hoje será parecido com este:
 
 ![](hotel.png)
 
+Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório e criar uma branch com o nome do projeto, seguido do nome da dupla. Exemplo:
+_trybe-hotel-tamara-flavio_.
+
 ## Requisitos
 
 ### 1. Faça uma barra superior para o título e a logomarca.
@@ -61,3 +64,5 @@ O resultado de hoje será parecido com este:
 ### 4. Prazo
 
 Teremos 40 minutos direcionados para a dinâmica.
+Uma das pessoas da dupla deverá abrir um Pull Request com o nome da dupla. Fiquem à vontade para solicitar code-reviews aos colegas.
+Caso não seja possível terminar, podem continuar fazendo o trabalho posteriormente.
