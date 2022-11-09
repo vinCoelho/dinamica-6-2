@@ -17,8 +17,7 @@ O resultado de hoje será parecido com este:
 
 ![](hotel.png)
 
-Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório e criar uma branch com o nome do projeto, seguido do nome da dupla. Exemplo:
-_trybe-hotel-tamara-flavio_.
+Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório.
 
 ## Requisitos
 
@@ -64,7 +63,5 @@ _trybe-hotel-tamara-flavio_.
 ## Prazo e demais instruções
 
 Teremos 40 minutos direcionados para a dinâmica.<br>
-Uma das pessoas da dupla deverá abrir um Pull Request com o nome da dupla.<br>
-Fiquem à vontade para solicitar code-reviews aos colegas.<br>
 Caso não seja possível terminar, podem continuar fazendo o trabalho posteriormente.<br>
 É importante lembrar que a mesma branch aberta hoje continuará a ser usada na aula 6.5.
