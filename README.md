@@ -18,6 +18,7 @@ O resultado de hoje será parecido com este:
 ![](hotel.png)
 
 Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório.
+Não será preciso criar branch e nem abrir Pull Request.
 
 ## Requisitos
 
